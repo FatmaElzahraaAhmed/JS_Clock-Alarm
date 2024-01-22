@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock & Alarm</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="clock-parent">
+        <div class="clock">
+          <div class="day">
+            <p>MON</p>
+            <p>TUE</p>
+            <p>WED</p>
+            <p>THU</p>
+            <p>FRI</p>
+            <p>SAT</p>
+            <p>SUN</p>
+          </div>
+          <div class="alarm-hour">
+            <div class="alarm">
+              <button>
+                <img width="100%" src="assets/images/alarm.png" alt="" />
+              </button>
+            </div>
+            <div class="hour">
+              <h1>05:25:15</h1>
+            </div>
+            <div class="am-pm">
+              <p>AM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br /><br />
+      <div class="DC">
+        <p>Digital Clock</p>
+      </div>
+      <br />
+      <div class="s-alarm">
+        <div class="heading">
+          <h4>Set Alarms</h4>
+        </div>
+        <div class="no-alarms">
+          <p>No alarms are set right now</p>
+        </div>
+        <div class="set-alarms">
+         
+        </div>
+      </div>
+      <div class="set-parent">
+        <div class="set">
+          <button class="btn">
+            <img width="100%" src="assets/images/cancel.png" alt="" />
+          </button>
+          <h4>SET ALARM AFTER</h4>
+          <div class="hrmnsc">
+            <div class="card">
+              <p>HOURS</p>
+              <div class="hr c">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="card">
+              <p>MINUTES</p>
+              <div class="mn c">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+            <div class="card">
+              <p>SECONDS</p>
+              <div class="sc c">
+                <input type="text" placeholder="0" />
+              </div>
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="b1 b">Set</button>
+            <button class="b2 b">Clear</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
