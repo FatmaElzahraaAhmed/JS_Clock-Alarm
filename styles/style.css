@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "digitaldream";
-  src: url("https://raw.githubusercontent.com/FatmaElzahraaAhmed/JS_Clock-Alarm/gh-pages/assets/fonts/DIGITALDREAM.ttf");
-}
-
-@font-face {
-  font-family: "oliva";
-  src: url("https://raw.githubusercontent.com/FatmaElzahraaAhmed/JS_Clock-Alarm/gh-pages/assets/fonts/olivia-script.regular.ttf");
-}
-
+    font-family: "olivia";
+    src: url("https://raw.githubusercontent.com/FatmaElzahraaAhmed/JS_Clock-Alarm/gh-pages/assets/fonts/olivia-script.regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "digitaldream";
+    src: url("https://raw.githubusercontent.com/FatmaElzahraaAhmed/JS_Clock-Alarm/gh-pages/assets/fonts/DIGITALDREAM.ttf");
+  }
+  
 * {
   padding: 0;
   margin: 0;
@@ -98,7 +98,7 @@
 }
 
 .DC p {
-  font-family: "oliva";
+  font-family: "olivia";
   color: #788895;
 
   font-size: 50px;
